@@ -1,0 +1,22 @@
+- place: London, GB
+  date: 2018-10-01
+  latlong: [51.507222, -0.1275]
+- place: London, GB
+  date: 2018-10-02
+  latlong: [51.507222, -0.1275]
+- place: Manchester, GB
+  date: 2018-10-03
+- place: Liverpool, GB
+  date: 2018-10-04
+- place: Edinburgh, GB
+  date: 2018-10-05
+- place: Glasgow, GB
+  date: 2018-10-06
+- place: Paris, France
+  date: 2018-10-07
+- place: Dublin, Ireland
+  date: 2018-10-08
+- place: Waterford, Ireland
+  date: 2018-10-09
+- place: Cork, Ireland
+  date: 2018-10-10
