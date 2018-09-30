@@ -10,10 +10,15 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 icons = {
     'Thunderstorms': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/thundershowers_day_night@2x.png',
     'Scattered Thunderstorms': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/scattered_showers_day_night@2x.png',
+    'Scattered Showers': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/scattered_showers_day_night@2x.png',
     'Mostly Sunny': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/fair_day@2x.png',
     'Sunny': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/clear_day@2x.png',
     'Partly Cloudy': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/partly_cloudy_day@2x.png',
     'Mostly Cloudy': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/mostly_cloudy_day_night@2x.png',
+    'Cloudy': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/cloudy_day_night@2x.png',
+    'Rain': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/rain_day_night@2x.png',
+    'Rain and Snow': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/snow_rain_mix_day_night@2x.png',
+    'Breezy': 'https://s.yimg.com/os/weather/1.0.1/shadow_icon/60x60/windy_day_night@2x.png',
 }
 
 
@@ -80,4 +85,3 @@ for day, pl in zip(date, place):
     ax.annotate(pl, xy=(day, 0), ha='center', xycoords='data')
 
 fig.savefig('output.png')
-plt.show()
